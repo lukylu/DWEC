@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random URL</title>
+</head>
+<body>
+<main> 
+    
+    <h1>Randomizador de URL</h1>
+
+
+    <!-- Creamos el botón correspondiente para poder obtener la URL aleatoria -->
+    <input type="url" id="urlInput" placeholder="Ingresa las url"/>
+    <button id="randomizeButton">Obtener url</button>
+
+    <br><br>
+
+    <!-- Código necesario para la creación de la respectiva tabla de información -->
+    <div id="info">
+        <table border="1">
+        <thead>
+            <tr>
+                <td>Cantidad de url introducidas: </td> <!-- Fila para mostrar la cantidad de URL introducidas -->
+                <td id="urlCount"></td>
+            </tr>
+
+            <tr>
+                <td>Listado no ordenado de las url introducidas: </td> <!-- Fila para mostrar el listado de URL introducidas -->
+                <td id="urlList"></td>
+            </tr>
+
+            <tr>
+                <td>URL obtenida: </td> <!-- Fila para mostrar la URL obtenida -->
+                <td id="urlOn"></td>
+            </tr>
+
+            <tr>
+                <td>Número de día actual: </td> <!-- Fila para mostrar el número del día actual -->
+                <td id="currentDay"></td>
+            </tr>
+            <tr>
+                <td>El número aleatorio para seleccionar url: </td> <!-- Fila para mostrar el número aleatorio para seleccionar URL --> 
+                <td id="randomNumber"></td>
+            </tr>
+
+        </thead>
+        <tbody id="tableinfo">
+        </tbody>
+    </div>
+
+    <!-- Se linkea el archivo script.js en el index.html para garantizar su correcto funcionamiento -->
+    <script src="script.js"></script>
+</main>       
+</body>
+</html>
