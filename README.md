@@ -16,10 +16,10 @@ DWEC/
 │   ├── ejercicio2.html
 │   ├── ejercicio3.html
 │   └── ejercicio4.html
-├── DWEC_examen_t1/                 → Examen del primer trimestre
+├── DWEC_examen_t1/                 → Examen del primer tema
 │   ├── index.html
 │   └── scripts.js
-├── DWEC_examen_t2/                 → Exámenes y programas del segundo trimestre
+├── DWEC_examen_t2/                 → Exámenes y programas del segundo tema
 │   ├── programa1/
 │   │   ├── index.html
 │   │   └── script.js
@@ -32,7 +32,7 @@ DWEC/
 │   └── programa4/
 │       ├── index.html
 │       └── script.js
-└── DWEC_examen_t3/                 → Examen del tercer trimestre
+└── DWEC_examen_t3/                 → Examen del tercer tema
     ├── index.html
     └── script.js
 ```
@@ -66,17 +66,17 @@ Cada carpeta contiene **HTML**, archivos **JavaScript** y recursos usados en las
 
 ---
 
-## 📚 Contenido por trimestre
+## 📚 Contenido por Tema
 
-### **T1 — Primer Trimestre**
+### **T1 — Primer Tema**
 - Actividades evaluables: `DWEC_actividad_evaluable_t1/`
 - Examen: `DWEC_examen_t1/` (archivos `index.html` y `scripts.js`)
 
-### **T2 — Segundo Trimestre**
+### **T2 — Segundo Tema**
 - Actividades evaluables: `DWEC_actividad_evaluable_t2/` (4 ejercicios)
 - Exámenes: `DWEC_examen_t2/` (4 programas con su propio `index.html` y `script.js`)
 
-### **T3 — Tercer Trimestre**
+### **T3 — Tercer Tema**
 - Examen: `DWEC_examen_t3/` (archivos `index.html` y `script.js`)
 
 ---
